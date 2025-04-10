@@ -1,5 +1,7 @@
 # Café
 
+Proyecto en desarrollo
+
 Proyecto hecho con HTML y CSS puro, como práctica de diseño responsive.
 
 Secciones:
@@ -11,5 +13,3 @@ Secciones:
 -Lenguajes de marcado:
 - HTML5
 - CSS3 (Flexbox, Grid, Media Queries)
-
-(Pronto estará disponible para verse en Netlify)
