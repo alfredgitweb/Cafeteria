@@ -18,16 +18,6 @@ h1{
 	width: 100%;
 }
 
-
-
-.introduccion{
-	text-align: center;
-	margin-top: -120px;
-	background-color: rgba(255, 255, 255, 0.7);
-	padding: 12px 24px;
-	border-radius: 10px;
-}
-
 .cuadrointro{
 	display:flex;
 	align-items: center;
@@ -66,52 +56,7 @@ h1{
 	margin-right: 4px;
 }
 
-h2{
-	text-align: center;
-	margin-top: 5px;
-	padding: 20px;
-}
-
-.container{
-	display:flex;
-	background-color: rgb(242, 193, 128);
-	width: 100%;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: center;
-	gap: 10px;
-	padding: 20px;
-	margin-top: -20px;
-}
-
-.menu{
-  width: 300px;
-  height: 310px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f2f2f2;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  gap: 2px;
-  padding: 10px;
-}
-
-.menu img{
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-  border-bottom: 1px solid #ccc;
-}
-
-.menu p{
-	text-align: center;
-	margin: 0 auto;
-	text-decoration: none;
-	color:black;
-}
-
-.cuadradosmenu{
+.cuadrados{
 background-color:sandybrown;
 border-color: rgb(209, 27, 27);
 margin-left: 2px;
@@ -125,41 +70,58 @@ padding: 10px 20px;
 	color: black;
 }
 
-@media (max-width: 768px){
-
-  .container{
-    flex-direction: column;
-  }
-
-  .menu{
-    width: 100%;
-    margin-bottom: 20px;
-	box-sizing: border-box; 
-  }
+h2{
+	text-align: center;
+	margin-top: 5px;
+	padding: 20px;
 }
 
-@media (max-width: 320px){
+.container{
+	display:flex;
+	background-color: rgb(242, 193, 128);
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 10px;
+	padding: 20px;
+	margin-top: -20px;
+}
+
+.carta{
+  flex: 1 1 0;
+  aspect-ratio: 4/4;
+  max-width: 300px;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 10px;
+}
+
+.carta img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+.carta p{
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	color:black;
+}
+
+@media (max-width: 632px){
 
   .container{
     flex-direction: column;
-    align-items: center;
-	justify-content: center;
+	align-items: center;
   }
 
-  .menu{
-    width: 90%;
-    margin-bottom: 20px;
+  .carta{
+	height: 90%;
+	width: width 90%;
+	margin-bottom: 20px;
   }
-
-
-.nav-list{
-	display: flex;
-	flex-direction: row;
-	margin: 0 auto;
-	padding: 0;
-	gap: 30px;
-	list-style: none;
-	width: 90%;
-  }
-
 }
