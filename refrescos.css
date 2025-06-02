@@ -1,0 +1,114 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: burlywood;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1{
+	color: sandybrown;
+	text-align: center;
+	background-image: url("imagenes/entrada.jpg");
+  	background-size: cover;
+  	background-position: center;
+  	padding: 150px 0px;
+  	text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+	margin: 0;
+	width: 100%;
+}
+
+.cuadrointro{
+	display:flex;
+	align-items: center;
+	width: 100%;
+	margin-top: -100px;
+}
+
+.introduccion{
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 0 auto;
+	padding: 12px 24px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.navbar{
+	padding: 10px;
+	background-color: antiquewhite;
+	margin-top: 28px;
+}
+
+.nav-list{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	justify-content: center;
+	padding: 0;
+	gap: 15px;
+	list-style: none;
+}
+
+.nav-list li{
+	display:flex;
+	padding: 10px 20px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.cuadrados{
+background-color:sandybrown;
+border-color: rgb(209, 27, 27);
+margin-left: 2px;
+margin-right: 2px;
+text-align: center;
+padding: 10px 20px;
+}
+
+.enlacecuadros{
+	text-decoration: none;
+	color: black;
+}
+
+h2{
+    text-align: center;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+	max-width: 320px;
+}
+
+.item{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1px;
+}
+
+@media (max-width:365px){
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+	max-width: 260px;
+}
+
+.item{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1px;
+}
+}
