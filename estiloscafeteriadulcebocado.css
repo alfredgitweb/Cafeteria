@@ -94,6 +94,7 @@ h2{
   background-color: none;
   text-align: center;
   margin: 10px;
+  text-decoration: none;
 }
 
 .carta img{
@@ -106,7 +107,6 @@ h2{
 .carta p{
 	text-align: center;
 	margin: 0 auto;
-	text-decoration: none;
 	color:black;
 }
 
