@@ -1,14 +1,11 @@
-# Café
-
-Proyecto en desarrollo
+# Cafétería
 
 Proyecto hecho con HTML y CSS puro, como práctica de diseño responsive.
 
 Secciones:
 - Inicio
-- Contacto
-- Reservar
+- Contacto (dentro se encuentra un formulario que llega a un correo electrónico personal)
 
--Lenguajes de marcado:
+-Lenguajes:
 - HTML5
-- CSS3 (Flexbox, Grid, Media Queries)
+- CSS3
