@@ -1,12 +1,12 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: burlywood;
-  justify-content: center;
-  align-items: center;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: burlywood;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 h1{
@@ -60,12 +60,12 @@ h1{
 }
 
 .cuadrados{
-background-color:sandybrown;
-border-color: rgb(209, 27, 27);
-margin-left: 2px;
-margin-right: 2px;
-text-align: center;
-padding: 10px 20px;
+	background-color:sandybrown;
+	border-color: rgb(209, 27, 27);
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	padding: 10px 20px;
 }
 
 .enlacecuadros{
