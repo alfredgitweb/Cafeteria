@@ -1,10 +1,10 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: burlywood;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: burlywood;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 h1{
@@ -58,12 +58,12 @@ h1{
 }
 
 .cuadrados{
-background-color:sandybrown;
-border-color: rgb(209, 27, 27);
-margin-left: 2px;
-margin-right: 2px;
-text-align: center;
-padding: 10px 20px;
+	background-color:sandybrown;
+	border-color: rgb(209, 27, 27);
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	padding: 10px 20px;
 }
 
 .enlacecuadros{
@@ -88,20 +88,20 @@ h2{
 }
 
 .carta{
-  flex: 1 1 0;
-  aspect-ratio: 4/4;
-  max-width: 300px;
-  background-color: none;
-  text-align: center;
-  margin: 10px;
-  text-decoration: none;
+	flex: 1 1 0;
+	aspect-ratio: 4/4;
+	max-width: 300px;
+	background-color: none;
+	text-align: center;
+	margin: 10px;
+	text-decoration: none;
 }
 
 .carta img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-bottom: 1px solid #ccc;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-bottom: 1px solid #ccc;
 }
 
 .carta p{
