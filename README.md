@@ -1,6 +1,7 @@
 # Cafétería
 
 Proyecto hecho con HTML y CSS puro, como práctica de diseño responsive.
+Está pensada sobre todo para moviles pero también se ve bien en formatos mas grandes como los de una tablet o un portátil.
 
 Secciones:
 - Inicio
