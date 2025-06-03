@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <link rel="stylesheet" href="contacto.css">
+	<meta charset="utf-8" />
+	<meta name="description" content="café, postres, batidos" />
+	<meta name="author" content="Cafe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <h1>Cafetería Dulce Bocado</h1>
+        <div class="imagenentrada"></div>
+        <div class="cuadrointro"><p class="introduccion"><em>Abiertos desde 1987,<br> tu cafetería de confianza.</em></p></div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="contacto.html" class="enlacecuadros"><div class="cuadrados">Contacto</div></a></li>
+            </ul>
+        </nav>
+
+        <div class="contenedor">
+            <h3 class="datos">Nombre</h3>
+                <input placeholder="Nombre" type="text" class="nombre" id="nombre" name="nombre">
+            <h3 class="datos">Apellidos</h3>
+                <input placeholder="Apellidos" type="text" class="apellidos" id="apellidos" name="apellidos">
+            <h3 class="datos">Email</h3>
+                <input placeholder="Email" type="email" class="email" id="email" name="email">
+            <h3 class="datos">Escriba su mensaje para indicarnos su duda o petición</h3>
+                <textarea class="mensaje" placeholder="Introduzca aquí su mensaje" type="text" class="mensaje" id="mensaje" name="mensaje"></textarea>
+                <input type="submit" class="submit" name="submit">
+        </div>
+    </body>
+
+
+</html>
