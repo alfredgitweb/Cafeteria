@@ -5,6 +5,7 @@ html, body {
 	background-color: burlywood;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
+	overscroll-behavior: none; 
 }
 
 h1{
