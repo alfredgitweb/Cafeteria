@@ -9,3 +9,5 @@ Secciones:
 -Lenguajes:
 - HTML5
 - CSS3
+
+NOTA: El menú es sencillo porque lo hemos puesto de ejemplo, pero se le podrían añadir todas las cosas que se quieran al menú.
